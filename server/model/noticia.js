@@ -35,7 +35,9 @@ const noticiasSchema = new Schema({
         type: String
     }],
     comentarios: [{
-        type: String
+        comentario: {
+            type: String,
+        }
     }]
 
 });
