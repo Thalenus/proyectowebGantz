@@ -38,6 +38,6 @@ const noticiasSchema = new Schema({
         type: String
     }]
 
-})
+});
 
 module.exports = mongoose.model('noticias', noticiasSchema)

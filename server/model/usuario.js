@@ -39,6 +39,6 @@ const usuarioSchema = new Schema({
         type: Date,
         required: true
     }
-})
+});
 
 module.exports = mongoose.model('usuario', usuarioSchema)
